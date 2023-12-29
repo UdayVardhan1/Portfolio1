@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Diphylleia&display=swap');
+
+body{
+    margin:0px;
+    background-color: rgb(13, 13, 13);
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color:black;
+    margin:0px;
+    font-weight: bolder;
+
+}
+.navbar-right{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-right: 5px;
+    align-items:center;
+
+    
+} 
+h2::first-letter{
+        color: green;
+    } 
+.navbar-left{
+   
+    padding-left: 50px;
+}
+#U,#D,#A,#Y{
+   color:white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+   text-transform:uppercase;
+}
+.home{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    height:100vh;
+}
+.home-left{
+    width: 50vw;
+    text-align: right;
+    padding-left: 200px;
+}
+.home-right{
+    width: 50vw;
+    padding-right: 100px;
+}
+
+.img1{
+    height:90px;
+    
+}
+.img2{
+    padding-left: 90px;
+    border-radius: 30px;
+   }
+
+.Services{
+    padding: 50px;
+    text-align: center;
+    color: darkgreen;
+    height: 60vh;
+   
+}
+#in{
+    font-family: font-family: 'Dancing Script', cursive;
+    color: green;
+    letter-spacing: 4px;
+ font-size: 40px;
+    font-style: oblique;
+}
+.sub-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+   
+  
+}
+.serv-card{
+    border: 3px solid green;
+    border-radius: 30px;
+    margin: 10px;
+
+    padding: 10px;
+    width: 300px;}
+.color{
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    color:green;
+    text-align: center;
+    font-style: oblique;
+    letter-spacing: 2px;
+    height: 90vh;
+   
+ 
+}
+.cont{
+    letter-spacing: 4px;
+    height: vh;
+}
+.icon{
+    background-color: transparent;
+    height: 40px;
+    padding: 20px;
+   
+}
+.details{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
